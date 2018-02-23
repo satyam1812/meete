@@ -13,10 +13,8 @@ connection.connect(function(err){
 			status: 0,
 			message: "Error in execution"
 		}
-		//res.send(error);
 	} else {
 		console.log("database is working");	
 	}
 });
-
 module.exports = connection;
